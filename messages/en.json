@@ -1,0 +1,18 @@
+{
+    "Navigation": {
+        "home": "Home",
+        "cloudMining": "Cloud Mining",
+        "hosting": "ASIC Hosting",
+        "marketplace": "Marketplace",
+        "company": "Company"
+    },
+    "Hero": {
+        "title": "Global Infrastructure",
+        "subtitle": "Institutional-grade Bitcoin mining solutions across the United Kingdom, UAE, and Americas."
+    },
+    "Footer": {
+        "legalUk": "Alpha Energy Group PLC",
+        "legalGlobal": "LC Group International",
+        "rights": "All rights reserved."
+    }
+}
