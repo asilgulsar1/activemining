@@ -10,6 +10,35 @@
         "title": "Global Infrastructure",
         "subtitle": "Institutional-grade Bitcoin mining solutions across the United Kingdom, UAE, and Americas."
     },
+    "HomePage": {
+        "hero": {
+            "title": "Enterprise Bitcoin Mining Infrastructure",
+            "subtitle": "Institutional-grade mining solutions powered by UAE-based infrastructure.<br/>From fractional hashrate to industrial-scale power agreements.",
+            "startMining": "Start Mining",
+            "viewInfrastructure": "View Infrastructure",
+            "scrollExplore": "Scroll to Explore"
+        },
+        "stats": {
+            "uptime": "Uptime",
+            "activeHashrate": "Active Hashrate",
+            "capacityPipeline": "Capacity Pipeline"
+        },
+        "networkSecurity": {
+            "title": "Network Security Standard",
+            "description": "Real-time visualization of the Bitcoin Network Hash Rate, representing the immense computational energy securing the ledger.",
+            "liveDataFeed": "LIVE DATA FEED",
+            "apiSource": "BLOCKCHAIN.COM API"
+        },
+        "partners": {
+            "title": "Powered by <emerald>Institutional Partnerships</emerald>",
+            "description": "Active Mining Group is a joint venture between three UAE-based entities, combining infrastructure, technology, and capital expertise."
+        },
+        "cta": {
+            "title": "Ready to Scale Your Mining Operations?",
+            "description": "Join institutional investors leveraging UAE-based infrastructure for maximum efficiency.",
+            "button": "Schedule Consultation"
+        }
+    },
     "Footer": {
         "legalUk": "Alpha Energy Group PLC",
         "legalGlobal": "LC Group International",
