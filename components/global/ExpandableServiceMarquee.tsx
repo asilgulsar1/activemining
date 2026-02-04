@@ -6,6 +6,7 @@ import { Link } from "@/navigation";
 import { KineticTypography } from "@/components/ui/KineticTypography";
 import { cn } from "@/lib/utils";
 import { ArrowUpRight, Cloud, Server, Zap, Globe, ShoppingCart } from "lucide-react";
+import Image from "next/image";
 
 const SERVICES = [
     {
@@ -105,11 +106,12 @@ export function ExpandableServiceMarquee() {
                         >
                             {/* Background Image with Overlay */}
                             <div className="absolute inset-0">
-                                <img
+                                <Image
                                     src={service.image}
                                     alt={service.title}
+                                    fill
                                     className={cn(
-                                        "w-full h-full object-cover transition-transform duration-1000",
+                                        "object-cover transition-transform duration-1000",
                                         activeId === service.id ? "scale-105 opacity-50" : "scale-100 opacity-20 filter grayscale"
                                     )}
                                 />
