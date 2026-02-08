@@ -107,13 +107,13 @@ export default function AboutPage() {
                         viewport={{ once: true }}
                         className="relative h-[500px] rounded-2xl overflow-hidden glass-panel border border-white/10"
                     >
-                        {/* Placeholder for About Image - Using a gradient for now */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-black">
-                            <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-20" />
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <Users className="w-32 h-32 text-gray-700/50" />
-                            </div>
-                        </div>
+                        <Image
+                            src="/about/mission.png"
+                            alt="Futuristic Bitcoin Mining Data Center"
+                            fill
+                            className="object-cover hover:scale-105 transition-transform duration-700"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                     </motion.div>
                 </div>
 
