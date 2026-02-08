@@ -121,5 +121,57 @@ Companies like MicroStrategy and miner-treasuries are adopting a "Bitcoin Standa
 ### Conclusion
 For CFOs, the question has shifted from "Why buy Bitcoin?" to "What is the risk of holding 0% Bitcoin?" As liquidity deepens, Bitcoin is becoming an essential component of a diversified corporate treasury.
         `
+    },
+    {
+        id: "ai-compute-convergence",
+        title: "The Convergence of AI and Bitcoin Mining",
+        slug: "ai-bitcoin-mining-convergence",
+        summary: "Analyzing the synergistic relationship between High-Performance Computing (HPC) for AI and Bitcoin mining infrastructure.",
+        readTime: "5 min read",
+        author: "Technology Strategy",
+        date: "Feb 5, 2026",
+        image: "/blog/blog_ai_mining.png",
+        tags: ["AI", "Technology", "Infrastructure"],
+        content: `
+### HPC and Hashing: A Dual Mandate
+The exponential demand for Artificial Intelligence compute is reshaping the mining landscape. While Bitcoin mining uses specific ASICs, the infrastructure required—massive power capacity, advanced cooling systems, and grid connectivity—overlaps significantly with the needs of AI data centers.
+
+### Infrastructure Synergy
+Miners are increasingly diversifying their fleets.
+*   **Power capacity**: Mining facilities controlled over gigawatts of power capacity that is ready-made for the power-hungry H100s and future AI chips.
+*   **Cooling**: Liquid immersion cooling, pioneered by miners for efficiency, is now becoming a requirement for the heat densities of modern AI clusters.
+
+### Economic Hedging
+Combining AI compute (which offers high but variable revenue) with Bitcoin mining (which acts as a permissionless energy sink) creates a robust economic model. When AI demand lulls, energy is directed to the blockchain. When inference demand peaks, capacity switches to higher-margin compute tasks.
+
+### The Sovereign Data Center
+This convergence is producing a new asset class: the Sovereign Data Center. These facilities are not just crypto-mines; they are the backbone of the digital economy, processing sound money and synthetic intelligence simultaneously.
+        `
+    },
+    {
+        id: "renewable-transition",
+        title: "Bitcoin's Role in the Renewable Energy Transition",
+        slug: "bitcoin-renewable-energy-transition",
+        summary: "How intermittent renewable energy sources find a perfect economic partner in the interruptible load of Bitcoin mining.",
+        readTime: "4 min read",
+        author: "Sustainability Desk",
+        date: "Feb 8, 2026",
+        image: "/blog/blog_green_transition.png",
+        tags: ["Sustainability", "Energy", "Green Tech"],
+        content: `
+### The Duck Curve Problem
+Solar and wind energy are intermittent. The sun doesn't always shine, and the wind doesn't always blow. Conversely, they often produce too much power when it isn't needed, leading to negative pricing and grid instability. This is the "Duck Curve" problem that plagues renewable grids.
+
+### The Interruptible Load Solution
+Batteries are expensive and degrade. Bitcoin miners, however, are the perfect battery.
+1.  **Demand Response**: Miners can power down in seconds when grid demand peaks, acting as a virtual power plant.
+2.  **Floor Price**: By buying "curtailed" (wasted) renewable energy, miners provide a price floor for green energy projects, making them financially viable where they otherwise wouldn't be.
+
+### ERCOT Case Study
+In Texas, the ERCOT grid has seen massive renewable build-out, supported largely by the flexibility of miners. During the 2024 freeze, miners returned over 1,500 MW to the grid—enough to power 300,000 homes—stabilizing the network during critical shortages.
+
+### A Greener Future
+Far from being an environmental villain, Bitcoin is emerging as a catalytic technology for the green transition, incentivizing the construction of renewable generation by monetizing its inefficiencies.
+        `
     }
 ];

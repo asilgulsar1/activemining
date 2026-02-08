@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/navigation';
 import { BLOG_POSTS } from '@/lib/blog-data';
 import { ArrowRight, Clock } from 'lucide-react';
 
@@ -31,8 +31,8 @@ export default function LatestInsights() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {latestPosts.map((post) => (
                         <Link
-                            href={`/blog/${post.slug}`}
                             key={post.id}
+                            href={`/blog/${post.slug}`}
                             className="group block bg-white/5 rounded-xl overflow-hidden border border-white/5 hover:border-[var(--sovereign-emerald)]/30 hover:bg-white/10 transition-all duration-500"
                         >
                             <div className="relative h-48 w-full overflow-hidden">

@@ -1,10 +1,11 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/navigation';
 import { notFound } from 'next/navigation';
 import { BLOG_POSTS } from '@/lib/blog-data';
 import { ArrowLeft, Calendar, Clock, Share2, Linkedin, Twitter } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 
 // Note: Since I didn't install react-markdown, I'll build a simple renderer or just inject HTML for now safely since it's internal data.
 // Actually, let's keep it simple and just display text with standard paragraph spacing for this sprint.
@@ -82,9 +83,7 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
             {/* Article Content */}
             <div className="container mx-auto px-6 max-w-3xl">
                 <div className="prose prose-invert prose-lg max-w-none">
-                    <div className="font-serif text-lg leading-relaxed text-gray-300 space-y-6 whitespace-pre-line">
-                        {post.content}
-                    </div>
+                    <ReactMarkdown>{post.content}</ReactMarkdown>
                 </div>
 
                 {/* Footer / CTA */}

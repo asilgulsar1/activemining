@@ -1,21 +1,19 @@
 @import "tailwindcss";
 
 /* Active Mining Group - Industrial Elegance Theme */
+/* Light Mode - Default & Explicit */
 :root {
   /* Base Colors - Midnight Obsidian */
   --background: #0B0C10;
   --foreground: #E5E7EB;
-  /* Cloud Dancer (roughly) */
 
   /* Palette */
   --midnight-obsidian: #050505;
-  /* Deep Void */
   --sovereign-emerald: #10B981;
-  /* Status Green */
   --sovereign-emerald-hover: #059669;
+  --sovereign-gold: #F59E0B;
   --cloud-dancer: #F0F2F5;
   --titanium-silver: #E0E0E0;
-  /* Metallic Light */
 
   /* Glassmorphism */
   --glass-bg: rgba(11, 12, 16, 0.7);
@@ -27,6 +25,7 @@
   --color-midnight-obsidian: var(--midnight-obsidian);
   --color-sovereign-emerald: var(--sovereign-emerald);
   --color-sovereign-emerald-hover: var(--sovereign-emerald-hover);
+  --color-sovereign-gold: var(--sovereign-gold);
   --color-cloud-dancer: var(--cloud-dancer);
   --color-titanium-silver: var(--titanium-silver);
 

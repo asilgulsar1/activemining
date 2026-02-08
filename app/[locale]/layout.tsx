@@ -29,6 +29,10 @@ export const metadata = {
     description: "Institutional cryptocurrency mining infrastructure. Cloud Mining, Hosting, and Hardware Sales across UK, UAE, and Americas.",
 };
 
+// ... existing imports
+
+// ... existing imports
+
 export default async function LocaleLayout({
     children,
     params
@@ -41,7 +45,7 @@ export default async function LocaleLayout({
 
     return (
         <html lang={locale} className="dark">
-            <body className={`${inter.variable} ${manrope.variable} ${jetbrainsMono.variable} antialiased bg-[var(--midnight-obsidian)] text-[var(--cloud-dancer)] selection:bg-[var(--sovereign-emerald)] selection:text-white`}>
+            <body className={`${inter.variable} ${manrope.variable} ${jetbrainsMono.variable} antialiased bg-[var(--midnight-obsidian)] text-[var(--cloud-dancer)] selection:bg-[var(--sovereign-emerald)] selection:text-white transition-colors duration-300`}>
                 <NextIntlClientProvider messages={messages}>
                     <FinancialTicker />
                     <Navigation />

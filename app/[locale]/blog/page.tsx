@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/navigation';
 import { BLOG_POSTS } from '@/lib/blog-data';
 import { ArrowRight, Clock, User } from 'lucide-react';
 
