@@ -6,6 +6,7 @@ import { PARTNERS, PRODUCT_BRANCHES } from "@/lib/constants";
 import { ExpandableServiceMarquee } from "@/components/global/ExpandableServiceMarquee";
 import LatestInsights from "@/components/sections/LatestInsights";
 import BitcoinHashRateChart from "@/components/charts/BitcoinHashRateChart";
+import { ScrollMiner } from "@/components/effects/ScrollMiner";
 
 export default function HomePage() {
   const { scrollY } = useScroll();
@@ -97,6 +98,9 @@ export default function HomePage() {
 
       {/* Global Product Marquee */}
       <ExpandableServiceMarquee />
+
+      {/* Scroll-Linked Miner Animation */}
+      <ScrollMiner />
 
       {/* Latest Insights Section */}
       <LatestInsights />
